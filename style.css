@@ -73,7 +73,17 @@ section{
     background: #F7CA3E;
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    padding: 4rem;
+    color: #333;
+}
 
+.heading span{
+    color: var(--yellow);
+   
+}
 
 
 header{
@@ -121,6 +131,86 @@ cursor: pointer;
 display: none;
 }
 
+
+.Mune .list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding:1rem 0;
+    margin: 2rem 0;
+    border-top: .3rem dashed rgba(0, 0, 0, .2);
+    border-bottom: .3rem dashed rgba(0, 0, 0, .2);
+}
+
+.Mune .list .btn{
+margin: 1rem;
+}
+
+
+
+
+.Mune .list .btn.active,
+.Mune .list .btn:hover{
+color: #fff;
+background: var(--yellow);
+}
+
+
+.Mune .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+
+.Mune .row .image{
+    margin: 2rem;
+   flex: 1 1 4rem;
+   border-radius: 1rem;
+   box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+
+}
+
+
+.Mune .row .image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.Mune .row .content{
+    flex:1 1 40rem;
+}
+
+
+.Mune .row .content .info{
+    padding: 1rem 0 ;
+}
+
+
+.Mune .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    color:#333;
+}
+
+.Mune .row .content .info h3 span{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+
+.Mune .row .content .info p{
+  padding: 1rem 0 ;
+  padding-left: 4.5rem;
+  font-size: 1.5rem;
+  color:#666;
+
+}
 
 
 
@@ -237,15 +327,18 @@ flex: 1 1 39rem;
     display: flex;
     color: #666;
     padding: 1rem;
+    justify-content: center;
     font-size: 2rem; 
 }
 
 .about .image{
     flex:1 1 40rem;
-    height: 60rem;
-    background-image: url();
+    height: 50rem;
+    background-image: url("pexel0.jpg");
     background-position: center;
     background-blend-mode:screen;
+    background-size: cover;
+    border-radius: 2rem; 
 
 }
 
@@ -256,7 +349,7 @@ flex: 1 1 39rem;
 
 .about .content h3{
     font-size: 2rem;
-    color:#666;
+    color:#333;
 }
 
 
