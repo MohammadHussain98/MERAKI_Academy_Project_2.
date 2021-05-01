@@ -7,6 +7,10 @@
     
     <!--Apping Links-->
 
+    <!--aos css cdn link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
     <!--libray jquery-->
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" 
@@ -45,7 +49,9 @@
 <!-- Home section starts -->
 
 <section class="home" id="home">
-    <div >
+    <div class="content" data-aos="fade-right">
+
+     
         
         <p class="text">
             The first restaurant in the Arab world
@@ -54,7 +60,7 @@
              <a href="#"><button class="btn">get started</button></a>
     </div>
 
-<div class="image">
+<div class="image" data-aos="fade-up">
 
     <img src="home.png" alt="">
 </div>
@@ -66,10 +72,11 @@
 <!-- about section start -->
 
    <section class="about" id="about">
-<div class="image"></div>
-<div class="content">
+<div class="image" data-aos="fade-right"></div>
+<div class="content" data-aos="fade-left">
 
     <h3>a word about us</h3>
+    <p>We belive good offer great smile</p>
 
     <a href="#"><button class="btn"> learn more </button></a>
 
@@ -86,7 +93,7 @@
 
     <h1 class="heading">our delicious <span>menu</span> </h1>
 
-<ul class="list">
+<ul class="list" data-aos="fade-down">
     <li class="btn" data-src="breakfast.jpg">breakfast</li>
     <li class="btn active" data-src="lunch.jpg">lunch</li>
     <li class="btn" data-src="dinner.jpg">dinner</li>
@@ -94,7 +101,7 @@
    
 </ul>
 
-<div class="row">
+<div class="row" data-aos="fade-left">
 
     <div class="image">
         <img src="m3karona.jpg" id="menu-img"alt="">
@@ -136,8 +143,8 @@
 <h1 class="heading">most <span>puplor</span> foods </h1>
 <div class="box-container">
 
-    <div class="box">
-        <img src="brosted.jpg" alt="">
+    <div class="box" data-aos="fade-right">
+        <img src="cake0.jpg" alt="">
 
         <h3> delicious food</h3> 
 
@@ -152,7 +159,7 @@
         <a href="#"><button class="btn">add to cart</button></a>
         
     </div>
-    <div class="box">
+    <div class="box" data-aos="fade-left">
         <img src="brosted2.jpg" alt="">
 
         <h3> delicious food</h3> 
@@ -168,8 +175,8 @@
         <a href="#"><button class="btn">add to cart</button></a>
         
     </div>
-    <div class="box">
-        <img src="brosted.jpg" alt="">
+    <div class="box" data-aos="fade-right">
+        <img src="Shawarma.jpg" alt="">
 
         <h3> delicious food</h3> 
 
@@ -184,8 +191,8 @@
         <a href="#"><button class="btn">add to cart</button></a>
         
     </div>
-    <div class="box">
-        <img src="brosted.jpg" alt="">
+    <div class="box" data-aos="fade-left">
+        <img src="marvin.jpg" alt="">
 
         <h3> delicious food</h3> 
 
@@ -200,8 +207,40 @@
         <a href="#"><button class="btn">add to cart</button></a>
         
     </div>
+    <div class="box" data-aos="fade-left">
+        <img src="pp1.jpg" alt="">
+
+        <h3> delicious food</h3> 
+
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>             
+        </div>
+        <div class="price">$30.00</div>
+        <a href="#"><button class="btn">add to cart</button></a>
     
 </div>
+<div class="box" data-aos="fade-left">
+    <img src="brosted.jpg" alt="">
+
+    <h3> delicious food</h3> 
+
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>             
+    </div>
+    <div class="price">$30.00</div>
+    <a href="#"><button class="btn">add to cart</button></a>
+    </div>
+    
+
+
     
 </section>
 
@@ -215,25 +254,25 @@
     <h1 class="heading">our food <span>gallary</span></h1>
 
     <div class="box-container">
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="mashwe.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="faheta.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="batata.jpg" alt="">
             <h3>delicious food</h3>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="cake.jpg" alt="">
             <h3>delicious food</h3>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="p1.jpg" alt="">
             <h3>delicious food</h3>
         </div>
@@ -252,7 +291,7 @@
     <h1 class="heading">make on  <span>order</span></h1>
 <div class="row">
 
-    <form action="">
+    <form action="" data-aos="fade-right">
         <input type="text" placeholder="your name" class="box">
         <input type="email" placeholder="your email" class="box">
         <input type="password" placeholder="your password" class="box">
@@ -262,7 +301,7 @@
     </form>
 
 
-    <div class="image">
+    <div class="image" data-aos="fade-left">
        
     </div>
 </div>
@@ -273,8 +312,26 @@
 <!--order section ends-->
 
 
+ <!--aos css cdn link-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+
+
 
 <!--js link-->
 <script src="main.js"></script>
+
+<!--initializing aos-->
+<script>
+
+AOS.init({
+    delay:400,
+    duration:1000
+})
+
+</script>
 </body>
 </html>
