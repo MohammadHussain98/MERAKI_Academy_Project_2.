@@ -28,14 +28,11 @@
 }
 
 html{
-    font-size:62.5%;
+    font-size:65%;
     overflow-x:hidden ;
 }
 
-body{
-    overflow-x:hidden ;
-    height: 200rem;
-}
+
 
 
 html::-webkit-scrollbar{
@@ -483,4 +480,52 @@ section{
 }
 
 
+.order{
+    background: url(bgorder.jpg) no-repeast;
+    background-position:center;
+    background-size: cover;
 
+}
+
+
+
+.order .row{
+    display: flex;
+background: #fff;
+margin:2rem 0;
+overflow: hidden;
+box-shadow:0 .5rem 1rem rgba(0, 0, 0, .3) ;
+border-radius: 3rem;
+}
+
+.order .row image{
+    flex:1 1 40% ;
+
+}
+
+.order .row form{
+    flex:1 1 60% ;
+    background:#fff;
+    padding: 2rem;
+    
+}
+.order .row form .box{
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #333;
+    font-size: 1.5rem;
+    text-transform: none;
+    background: #f0f0f0;
+    width: 100%;
+
+}
+
+
+.order .row form .box ::placeholder{
+    text-transform:capitalize;
+}
+
+.order .row form .address{
+    height: 15rem;
+    resize: 15rem;
+}
