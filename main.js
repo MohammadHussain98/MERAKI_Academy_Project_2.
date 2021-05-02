@@ -1,4 +1,5 @@
 
+$(document).ready(function(){
 
 $(section).each(function(){
  $('#Mune-bar').click(function(){
@@ -12,7 +13,7 @@ $(window).on('scroll load ', function(){
 $('Mune-bar').removeClass('fas fa-hamburger');
 $('.narbar').removeClass('nav-toggle');
 
-
+});
 //scroll
 
 $(section).each(function(){
