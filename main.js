@@ -1,22 +1,22 @@
 
-$(document).ready(function(){
+$(document).ready(()=>{    //$(function)
 
-$(section).each(function(){
- $('#Mune-bar').click(function(){
-        $(this).toggleClass('fas fa-hamburger');
-        $('.narbar').toggleClass('nav-toggle');
+$(section).each(()=>{
+ $('#Mune').click(function(){
+        $(this).toggleClass('fa fa-star');
+        $(this).toggleClass('narbar');
     });
 
 
-$(window).on('scroll load ', function(){
+$(window).on('scroll load ',()=>{
 
-$('Mune-bar').removeClass('fas fa-hamburger');
+$('Mune-bar').removeClass('fa fa-star');
 $('.narbar').removeClass('nav-toggle');
 
 });
 //scroll
 
-$(section).each(function(){
+$(section).each(()=>{
     let top =$(window).scrolltop();
     let offset = $(this).offset().top -200;
     let height = $(this).height();
@@ -33,7 +33,7 @@ $(section).each(function(){
 
 });
 
-$('.Mune .list .btn').click(function(){
+$('.Mune .list .btn').click(()=>{
     $(this).addClass('active').siblings().removeClass('active');
 
     let src = $(this).attr('data-src');
