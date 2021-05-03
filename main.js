@@ -3,8 +3,8 @@ $(document).ready(()=>{    //$(function)
 
 $(section).each(()=>{
  $('#Mune').click(function(){
-        $(this).toggleClass('fa fa-star');
-        $(this).toggleClass('narbar');
+        $("menu-bar").toggleClass('fas fa-hamburger');
+        $("narbar").toggleClass('nav-toggle');
     });
 
 
